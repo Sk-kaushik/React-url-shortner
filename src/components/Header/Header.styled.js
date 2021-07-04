@@ -8,6 +8,7 @@ export const HeaderContainer = styled.div`
   margin: 0 auto;
   display: flex;
   align-items: center;
+  overflow-x: hidden;
   justify-content: space-between;
   @media (max-width: 375px) {
     flex-direction: column-reverse;

@@ -18,15 +18,12 @@ body{
 
 // CONTAINER FLUID
 export const ContainerFluid = styled.div`
-  width: 100%;
-  /* max-width: 1400px; */
-  /* height: ${(props) => props.height}; */
   padding-bottom: ${(props) => props.paddingBottom};
   margin: 0 auto;
   background: ${(props) => props.backgroundColor};
 
   @media (max-width: 375px) {
-    max-width: 375px;
+    width: 100%;
     padding-bottom: ${(props) => props.responsivePaddingBottom};
   }
 `;
